@@ -1,0 +1,28 @@
+[
+    {
+        "Nom": "admin",
+        "Pr\u00e9nom": "rayan",
+        "Genre": "Homme",
+        "Email": "rayan.elkharroubi@oultook.com",
+        "T\u00e9l\u00e9phone": "0614570677",
+        "Date de naissance": "2008-12-30",
+        "Adresse": "sasa",
+        "M\u00e9tier": "inge",
+        "Pseudo": "admin95",
+        "Mdp": "$2y$10$tpwYOs\/FnsilK2qPL.GnCugBv24pZ7lq8yHKE5dpVF4iT7RO89vkO",
+        "Role": "admin"
+    },
+    {
+        "Nom": "Elkharroubi",
+        "Pr\u00e9nom": "rayan",
+        "Genre": "Homme",
+        "Email": "rayan.elkharroubi@oultook.com",
+        "T\u00e9l\u00e9phone": "0614570677",
+        "Date de naissance": "2008-12-30",
+        "Adresse": "rue de la rue",
+        "M\u00e9tier": "ingenieur",
+        "Pseudo": "Ray95",
+        "Mdp": "$2y$10$Eqy0HoyhfGRTZgj1QiV\/aO5miQCBCZi1S\/FELaRfZsgE3aySQRhV.",
+        "Role": "user"
+    }
+]         

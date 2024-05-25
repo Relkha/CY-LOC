@@ -1,0 +1,15 @@
+
+    .zoom p {
+    text-align:center;
+    }
+    .zoom img {
+    height:3cm;
+    }
+    .zoom img:hover {
+    height:5cm;
+    } 
+
+tr{
+    max-height: 5cm;
+}
+

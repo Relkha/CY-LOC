@@ -1,0 +1,13 @@
+﻿Facture
+
+Réservation ID: 1716673755
+Nom: admin
+Prénom: rayan
+Email: rayan.elkharroubi@oultook.com
+Référence: L01
+Date de départ: 2024-06-06
+Date de retour: 2024-06-08
+Assurance: middle
+KM Supplémentaires: 300km
+Notes Additionnelles: 
+Prix Total: 1190€

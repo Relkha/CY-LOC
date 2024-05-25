@@ -1,0 +1,1392 @@
+/* Styles par défaut pour les grands écrans */
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #34495e;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+#logo {
+    width: 350px;
+    display: inline-block;
+    margin-bottom: -px;
+    margin-left: 0px;
+    margin-right: 1350px;
+}
+
+#titre {
+    align-items: center;
+}
+
+#boutonsD {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 1350px;
+    margin-bottom: 0px;
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn::after {
+    content: "\2807";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2c3e50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.boutonRose a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#panier {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#MenuHaut {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#MenuHaut li {
+    margin: 0 15px;
+}
+
+#MenuHaut li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#MenuHaut li a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+#Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Dispose les éléments verticalement */
+    width: 100%; /* Ajuste la largeur du formulaire */
+    max-width: 600px; /* Largeur maximale pour le formulaire */
+}
+
+form .champ, form .label {
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+form .champ input {
+    width: 100%; /* Ajuste la largeur des champs de saisie */
+    padding: 10px; /* Ajoute du padding pour plus de confort */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 5px; /* Arrondit les coins des champs de saisie */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+form .champ input[type="submit"] {
+    background-color: #2c3e50; /* Couleur de fond du bouton de soumission */
+    color: #ecf0f1; /* Couleur du texte du bouton de soumission */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+form .champ input[type="submit"]:hover {
+    background-color: #34495e; /* Couleur de fond du bouton de soumission au survol */
+}
+
+.photoPanier {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+/* Styles responsifs */
+@media (max-width: 1200px) {
+    #logo {
+        margin-right: 50px;
+    }
+
+    #boutonsD {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #boutonsD {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .edit-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #MenuHaut {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #MenuHaut li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding ;
+    }
+}
+
+
+/* Styles par défaut pour les grands écrans */
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #34495e;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+#logo {
+    width: 350px;
+    display: inline-block;
+    margin-bottom: -px;
+    margin-left: 0px;
+    margin-right: 1350px;
+}
+
+#titre {
+    align-items: center;
+}
+
+#boutonsD {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 1350px;
+    margin-bottom: 0px;
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn::after {
+    content: "\2807";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2c3e50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.boutonRose a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#panier {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#MenuHaut {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#MenuHaut li {
+    margin: 0 15px;
+}
+
+#MenuHaut li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#MenuHaut li a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+#Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Dispose les éléments verticalement */
+    width: 100%; /* Ajuste la largeur du formulaire */
+    max-width: 600px; /* Largeur maximale pour le formulaire */
+}
+
+form .champ, form .label {
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+form .champ input {
+    width: 100%; /* Ajuste la largeur des champs de saisie */
+    padding: 10px; /* Ajoute du padding pour plus de confort */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 5px; /* Arrondit les coins des champs de saisie */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+form .champ input[type="submit"] {
+    background-color: #2c3e50; /* Couleur de fond du bouton de soumission */
+    color: #ecf0f1; /* Couleur du texte du bouton de soumission */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+form .champ input[type="submit"]:hover {
+    background-color: #34495e; /* Couleur de fond du bouton de soumission au survol */
+}
+
+.photoPanier {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+/* Styles responsifs */
+@media (max-width: 1200px) {
+    #logo {
+        margin-right: 50px;
+    }
+
+    #boutonsD {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #boutonsD {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .edit-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #MenuHaut {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #MenuHaut li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px
+
+    
+    }
+}
+/* Styles par défaut pour les grands écrans */
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #34495e;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+#logo {
+    width: 350px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#titre {
+    align-items: center;
+}
+
+#boutonsD {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn::after {
+    content: "\2807";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2c3e50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.boutonRose a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#panier {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#MenuHaut {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#MenuHaut li {
+    margin: 0 15px;
+}
+
+#MenuHaut li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#MenuHaut li a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+#Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Dispose les éléments verticalement */
+    width: 100%; /* Ajuste la largeur du formulaire */
+    max-width: 600px; /* Largeur maximale pour le formulaire */
+}
+
+form .champ, form .label {
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+form .champ input {
+    width: 100%; /* Ajuste la largeur des champs de saisie */
+    padding: 10px; /* Ajoute du padding pour plus de confort */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 5px; /* Arrondit les coins des champs de saisie */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+form .champ input[type="submit"] {
+    background-color: #2c3e50; /* Couleur de fond du bouton de soumission */
+    color: #ecf0f1; /* Couleur du texte du bouton de soumission */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+form .champ input[type="submit"]:hover {
+    background-color: #34495e; /* Couleur de fond du bouton de soumission au survol */
+}
+
+.photoPanier {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+/* Styles responsifs */
+@media (max-width: 1200px) {
+    #logo {
+        margin-right: 50px;
+    }
+
+    #boutonsD {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #boutonsD {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .edit-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #MenuHaut {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #MenuHaut li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10
+    }
+}
+
+
+/* Styles par défaut pour les grands écrans */
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #34495e;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 4px solid #ecf0f1;
+}
+
+#logo {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: -125px;
+}
+
+#boutonsD {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn::after {
+    content: "\2807";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2c3e50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.boutonRose a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#panier {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#MenuHaut {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#MenuHaut li {
+    margin: 0 15px;
+}
+
+#MenuHaut li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#MenuHaut li a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+#Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Dispose les éléments verticalement */
+    width: 100%; /* Ajuste la largeur du formulaire */
+    max-width: 600px; /* Largeur maximale pour le formulaire */
+}
+
+form .champ, form .label {
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+form .champ input {
+    width: 100%; /* Ajuste la largeur des champs de saisie */
+    padding: 10px; /* Ajoute du padding pour plus de confort */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 5px; /* Arrondit les coins des champs de saisie */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+form .champ input[type="submit"] {
+    background-color: #2c3e50; /* Couleur de fond du bouton de soumission */
+    color: #ecf0f1; /* Couleur du texte du bouton de soumission */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+form .champ input[type="submit"]:hover {
+    background-color: #34495e; /* Couleur de fond du bouton de soumission au survol */
+}
+
+.photoPanier {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+}
+
+/* Styles responsifs */
+@media (max-width: 1200px) {
+    #logo {
+        width: 120px;
+    }
+
+    #boutonsD {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    form input[type="text"], form input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin-bottom: 10px;
+    }
+
+    #boutonsD {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .edit-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #MenuHaut {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #MenuHaut li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+}
